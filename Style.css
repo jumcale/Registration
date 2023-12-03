@@ -1,0 +1,153 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.header{
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  background: gray;
+  z-index: 100;
+  padding: 0 20px;
+  margin-top: 5px;
+  }
+.navbar {
+  background-color: 	#06546e;
+  padding: 15px;
+  width: 100%;
+  position:absolute;
+  top: 0;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  font-family: 'Times New Roman';
+  font-weight: bold;
+  margin-right: 0;
+  padding: 25 60px;
+  color: white;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 0 25px;
+  text-align: justify;
+  transition: background-color 0.3s, color 0.3s;
+  
+}
+nav li a:hover {
+  color: #e9810b;
+}
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(B.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    margin: 10px;
+    color: white;
+    font-family: 'Times New Roman';
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: 'Times New Roman';
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+.required::before {
+  content: "*";
+  color: red;
+}
+*::placeholder {
+  font-size: 14px;
+  color: gray;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="file"] {
+    padding: 5px;
+}
+
+input[type="submit"] {
+    background-color: #e9810b;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #392a7e;
+}
+input[type="button"] {
+  background-color: #25fc09;
+  color: rgb(2, 2, 2);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+input[type="button"]:hover {
+  background-color: #99acad;
+}
+input[type="submit1"] {
+  background-color: #fc0909;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+input[type="submit1"]:hover {
+  background-color: #0a0101;
+}
+.error-message {
+    color: red;
+    margin-top: 5px;
+}
+footer{
+  text-align: center;
+  font-family: sans-serif;
+  font-style: initial;
+  display: inline;
+  font-weight: bold;
+}
+.map-icon {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+}

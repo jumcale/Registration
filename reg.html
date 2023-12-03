@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mid-Exam</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="Java.js" rel="stylesheet"/>
+    <header>
+      <nav class="navbar">
+          <ul>
+              <li><a href="#" >Home</a></li>
+              <li><a href="#" > About</a></li>
+              <li><a href="#" > Participate</a></li>
+              <li><a href="#" > Attend</a></li>
+              <li><a href="#" > Membership</a></li>
+              <li><a href="#" > Contact</a></li>
+          </ul>
+      </nav>
+      </header><br>
+
+</head>
+<body>
+    <h1>Please Fill This Form</h1>
+    <form action="submit.php" method="POST" enctype="multipart/form-data" onsubmit="return validateForm()">
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" required><br><br>
+
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" required><br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br>
+        <span id="error_email" class="error-message"></span><br>
+
+        <label for="confirm_email">Re-enter Email Address:</label>
+        <input type="email" id="confirm_email" name="confirm_email" required><br><br>
+        <label for="email">Enter Your Moile Number:</label>
+        <input type="Text" id="Mobile Number" name="MObile Number" required><br>
+        <span id="error_number" class="error-message"></span><br>
+       
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+        <span id="error_password" class="error-message"></span><br>
+        <label for="confirm_password">Re-enter Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password" required ><br><br>
+
+        <label for="email">Enter Your Address:</label>
+        <input type="Text" id="Address" name="Address" required><br>
+        <span id="error_address" class="error-message"></span><br>
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        <label for="Hobbies">Select Your Hobbies:</label>
+        <select id="Hobbies" name="ho\" required>
+            <option value="">Select</option>
+            <option value="Engineer">Engineer</option>
+            <option value="Lucturer">Lucturer</option>
+            <option value="Software Developer">Software Developer</option>
+            <option value="Other">Other</option>
+        </select><br><br>
+        <div class="form-group">
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select Country</option>
+                <option value="Somaliland">Somaliland</option>
+                <option value="Somalia">Somalia</option>
+                <option value="Djibouti">Djibouti</option>
+                <option value="Ethiopia">Ethiopia</option>
+                <option value="Kenya">Kenya</option>
+                <option value="Egypt">Egypt</option>
+                <option value="Morocco">Morocco</option>
+                <option value="Madagascar">Madagascar</option>
+            </select><br><br>
+        </div>
+        <br>
+        <label for="profile_picture">Profile Picture:</label>
+        <input type="file" id="profile_picture" name="profile_picture" accept="image/*" required><br><br>
+
+        <input type="submit" value="Register">
+        <input type="button" value="Save my data">
+        <input type="submit1" value="Reset my data">
+    </form><br>
+    <footer>
+      <p>&copy;All rights reserved by Mohamed Abiib.<span><br><br>
+        Sophomore student at TU<br><br>
+        <img src="map.png" alt="Map Icon" class="map-icon">Gabiley, Somaliland.
+      </span></p>
+    </footer>
+</body>
+</html>
